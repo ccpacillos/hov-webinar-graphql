@@ -1,0 +1,29 @@
+{
+  "name": "hov-webinar-graphql",
+  "version": "1.0.0",
+  "description": "Introduction to GraphQL",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccpacillos/hov-webinar-graphql.git"
+  },
+  "author": "ccpacillos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccpacillos/hov-webinar-graphql/issues"
+  },
+  "homepage": "https://github.com/ccpacillos/hov-webinar-graphql#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "typescript": "^4.3.5"
+  }
+}
