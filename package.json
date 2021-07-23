@@ -4,7 +4,7 @@
   "description": "Introduction to GraphQL",
   "main": "index.ts",
   "scripts": {
-    "ts-node": "ts-node --files --transpile-only"
+    "start:local": "DEBUG=info* ts-node --files --transpile-only src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,9 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "@highoutput/logger": "^0.5.1",
     "@koa/cors": "^3.1.0",
+    "apollo-server-koa": "^3.0.2",
     "koa": "^2.13.1",
     "koa-body": "^4.2.0"
   }
