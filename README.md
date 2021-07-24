@@ -5,6 +5,7 @@ Examples:
 - `GET /accounts/:id` - Retrieve an account.
 
 ### Underfetching
+Not having enough data from the response forcing you to call another endpoint.
 1. Show product information given product id: `product-id-1`
     - Product name and price
     - Seller
@@ -27,6 +28,7 @@ Examples:
    ```
 
 ### Overfetching
+Fetching data too much. There's data in the response that you don't need.
 1. Display only the firstname of the seller
     ```json
       {
